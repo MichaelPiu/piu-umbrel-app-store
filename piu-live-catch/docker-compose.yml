@@ -11,7 +11,7 @@ services:
       PROXY_AUTH_ADD: "false"
 
   web:
-    image: ghcr.io/michaelpiu/pokemon-twitch-catch:1.0.0-rc.1@sha256:9daaabff4e05c50f04268153c28046965db31ce04b39034e0851be2aa49637f1
+    image: ghcr.io/michaelpiu/pokemon-twitch-catch:1.0.0-rc.2@sha256:346ee3bcc5025ce7a40508fbe3ceb0805af541c803fc3dfc501e05a22525f9aa
     restart: on-failure
     init: true
     user: "1000:1000"
